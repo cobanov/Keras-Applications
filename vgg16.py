@@ -7,12 +7,12 @@ Algoritma: Evrişimli Sinir Ağları (Convolutional Neural Networks)
 Ek: Çalışma ile ilgili rehber README.md dosyasında belirtilmiştir.
 """
 
-from keras.applications.resnet50 import ResNet50
+from keras.applications.vgg16 import VGG16
 from keras.preprocessing import image
-from keras.applications.resnet50 import preprocess_input, decode_predictions
+from keras.applications.vgg16 import preprocess_input, decode_predictions
 import numpy as np
 
-model = ResNet50(weights='imagenet')
+model = VGG16(weights='imagenet')
 
 img_path = 'images/bird.jpg'
 img = image.load_img(img_path, target_size=(224, 224))
