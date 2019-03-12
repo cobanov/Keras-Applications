@@ -47,7 +47,7 @@ Proje dışındaki diğer modellere gözatmak için Keras dokümantasyonunu ince
 
 ## Authors
 
-* **Mert Çobanoğlu** - *Initial work* - [cobanov](https://github.com/cobanov)
+* **Mert Çobanoğlu** - [cobanov](https://github.com/cobanov)
 
 ## License
 
